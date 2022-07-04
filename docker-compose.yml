@@ -1,0 +1,11 @@
+version: '3'
+services:
+  examenfinalfunda-service:
+    image: microservice-docker-examenfinalfunda:0.0.1-SNAPSHOT
+    ports:
+      - 8080:8080
+    networks:
+      - debie
+networks:
+  debie:
+
